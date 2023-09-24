@@ -39,7 +39,7 @@ Information:
             DX_10: wind direction of the maximum wind speed during the previous 10 minutes
 
         alternatively
-            FMX_10 "3-s gut of 10 min" = mean 3-second maxima of the wind speed during the previous 10 minutes
+            FMX_10 "3-s gust of 10 min" = mean 3-second maxima of the wind speed during the previous 10 minutes
 
 Data naming:
     Hourly:
@@ -59,9 +59,15 @@ Data naming:
             file format: produkt_zehn_min_fx_<StartDate:YYYYMMDD>_<EndDate:YYYYMMDD>_<LocationID>.txt
 
 LocationID:
-    City: 033379
-    Airport: 01262
+    City: 033379 (48°09'47.5"N 11°32'34.4"E)
     
+    Airport: 01262 (48°20'51.7"N 11°48'48.2"E)
+        
+    Stations_id von_datum bis_datum Stationshoehe geoBreite geoLaenge Stationsname Bundesland
+    -----------------------------------------------------------------------------------------
+    03379 19850101 20230922            515     48.1632   11.5429 München-Stadt  
+    01262 19920519 20230922            446     48.3477   11.8134 München-Flughafen 
+            
 '''
 
 dwd_data_info = {
