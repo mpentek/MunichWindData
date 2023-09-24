@@ -59,7 +59,7 @@ Data naming:
             file format: produkt_zehn_min_fx_<StartDate:YYYYMMDD>_<EndDate:YYYYMMDD>_<LocationID>.txt
 
 LocationID:
-    City: 033379 (48°09'47.5"N 11°32'34.4"E)
+    City: 03379 (48°09'47.5"N 11°32'34.4"E)
     
     Airport: 01262 (48°20'51.7"N 11°48'48.2"E)
         
